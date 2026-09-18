@@ -1,0 +1,10 @@
+#Write a python program to perform arithmetic operations (+, -, *, /, //, %, **) on two numbers
+a=int(input("Enter your first number: "))
+b=int(input("Enter your second number: "))
+print(f"Addition of {a} + {b} = {a+b}")
+print(f"Subtraction of {a} - {b} = {a-b}")
+print(f"Multiplication of {a} * {b} = {a*b}")
+print(f"Division of {a} / {b} = {a/b}")
+print(f"floor division of {a} // {b} = {a//b}")
+print(f"Modulus of {a} % {b} = {a%b}")
+print(f"Exponentiation of {a} ** {b} = {a**b}")
