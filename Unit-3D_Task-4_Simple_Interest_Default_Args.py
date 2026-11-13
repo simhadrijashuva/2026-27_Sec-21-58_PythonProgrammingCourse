@@ -6,4 +6,4 @@ def simple(p,t,r=5):
     simple=(p*t*r)/100
     return simple
 simple2=simple(p,t,r)
-print(f"The Simple Interest as Entered Rate(r={r}): {simple2}")
+print(f"The Simple Interest : {simple2}")
