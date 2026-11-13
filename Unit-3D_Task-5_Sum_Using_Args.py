@@ -2,12 +2,12 @@
 def sum_n(*n):
     total=0
     for i in n:
-        sum(i)
+        total=total+i
     print(f"The sum : {total}")
 n=int(input("Enter total numbers : "))
 b=[]
 for i in range(1,n+1):
     a=int(input(f"Enter a number-{i} : "))
     b.append(a)
-#tup=tuple(b)
-print(f"{sum_n(b)}")
+tup=tuple(b)
+print(f"{sum_n(tup)}")
