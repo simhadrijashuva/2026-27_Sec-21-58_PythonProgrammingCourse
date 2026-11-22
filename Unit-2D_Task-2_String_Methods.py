@@ -1,0 +1,11 @@
+#Implement a Python program to demonstrate string methods (upper, lower, strip, split, join, replace, find)
+s=str(input("Enter your first name : "))
+s1=str(input("Enter your second name : "))
+s2=s+" "+s1
+print(f"Upper : {s1.upper()}")
+print(f"lower : {s1.lower()}")
+print(f"strip : {s2.strip()}")
+print(f"split : {s2.split()}")
+print(f"join : {'-'.join([s,s1])}")
+print(f"replace : {s2.replace(' ', ',')}")
+print(f"find : {s2.find(s1)}")
